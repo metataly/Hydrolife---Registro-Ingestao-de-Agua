@@ -1,72 +1,45 @@
-HydroLife – Sistema de Monitoramento de Hidratação
+# 💧 HydroLife – Sistema de Monitoramento de Hidratação
 
-O HydroLife é um aplicativo desktop desenvolvido em Python + Tkinter, com sistema de cadastro, cálculo de meta diária de água, registro de ingestão e armazenamento de dados em banco local (SQLite).
+O **HydroLife** é um aplicativo desktop em **Python + Tkinter** para cadastro de usuários, cálculo de meta diária de água e acompanhamento da ingestão.  
+Todos os dados são armazenados localmente usando **SQLite**.
 
-Este guia explica como instalar, configurar e executar o projeto.
+---
 
-🚀 1. Pré-requisitos
+## 🚀 Pré-requisitos
 
-Antes de rodar o projeto, instale:
+Antes de rodar o projeto, você precisa ter instalado:
 
-✔ Python 3.10+
+### ✔ Python 3.10 ou superior  
+Baixar em: https://www.python.org/downloads/
 
-Baixe em:
-https://www.python.org/downloads/
-
-Durante a instalação, marque a opção:
-
-[✔] Add Python to PATH
-
-✔ Instalar dependências
-
-As bibliotecas usadas são:
-
-Tkinter (já vem com Python)
-
-SQLite3 (já vem com Python)
-
-Outras dependências listadas no requirements.txt
-
-⚙️ 3. Instalando dependências
-
-no arquivo requirements.txt, execute:
-
+### ✔ Dependências do projeto  
+Caso exista um `requirements.txt`:
+```bash
 pip install -r requirements.txt
-
-
-▶️ 4. Como rodar o projeto
-
-Navegue até a pasta do projeto:
-
-cd HydroLife/app
-
-
-E execute:
-
-python main.py
-
-
-🛠 5. Banco de dados
-
-O sistema usa SQLite, e o banco geralmente é criado automaticamente.
-
-
-🧪 7. Problemas comuns
-❌ "ModuleNotFoundError"
-
-Algum módulo não foi encontrado?
-
-Execute:
-
+```
+Se não existir:
+```bash
 pip install pillow
+```
 
+## ▶️ Como rodar o projeto
 
-ou verifique se está no diretório correto.
+Abra o terminal e navegue até a pasta do projeto:
 
+```bash
+cd HydroLife/app
+```
+Execute o arquivo principal:
 
-📄 8. Licença
+```bash
+python main.py
+```
+---
+## 📄 Licença
 
-Projeto educacional para fins de estudo.
-Desenvolvido por:
-Gustavo Sthel, @
-Nathaly Pereira, @metataly
+Projeto criado para fins de estudo e prática.
+
+## 👥  Desenvolvedores
+### 💙 Nathaly Pereira - @metataly
+### 💙 Gustavo Sthel - @gustavosthel
+
